@@ -1,0 +1,6 @@
+BeanFactory是一个工厂，也就是一个容器，是来管理和生产Bean的；
+
+FactoryBean是一个Bean，但是它是一个特殊的bean，所以也是有BeanFactory来管理的，
+FactoryBean是一个接口，必须被一个Bean实现。
+不过FactoryBean不是一个普通的Bean，它会表现出工厂模式的样子，是一个能产生或者修饰对象生成的工厂Bean，
+里面的getObject()就是用来获取FactoryBean产生的对象。所以在BeanFactory中使用"&"来得到FactoryBean本身，用来区分通过容器获取FactoryBean产生的对象还是获取FactoryBean本身

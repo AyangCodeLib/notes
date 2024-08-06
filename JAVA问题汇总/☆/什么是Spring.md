@@ -1,0 +1,8 @@
+- Spring是一个生态：可以构建java应用所需的一切基础设施
+- 通常Spring指的是Spring Framework
+- Spring是一个轻量级的开源容器架构
+- Spring是为了解决企业级应用开发的业务逻辑层和其他各层对象和对象之间的耦合问题
+- Spring是一个IOC和AOP的容器框架
+   - IOC：控制反转
+   - AOP：面相切面编程
+   - 容器：包含并管理应用对象的生命周期
